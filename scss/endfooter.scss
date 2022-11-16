@@ -1,0 +1,54 @@
+.endfooter{
+
+nav{
+    text-align: center;
+    height: 105px;
+    display: flex;
+    background: rgb(0, 0, 0);
+    transition: 1s;
+    &:hover{
+      color: white;
+      transform: scale(1);
+    }
+  }
+
+  .links{
+    width: 40%;
+    h1 {
+        padding: 10px 0;
+        text-transform: capitalize;
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+        font-size: 1em;
+        color: gray;
+        font-weight: 200;
+    }
+  }
+
+  .footericons{
+    width: 60%;
+    display: flex;
+  }
+
+
+  .fa-brands, .fa-solid, .fa-regular{
+    font-size: 1.8em;
+    display: inline;
+    height: 100%;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+    color: #E27866;
+  }
+  
+  .fa-brands:hover, .fa-solid:hover, .fa-regular:hover{  
+    color:#ac321c; 
+    text-decoration:none; 
+    cursor:pointer;  
+  }
+
+}

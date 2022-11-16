@@ -1,0 +1,23 @@
+@import 'font';
+@import 'header';
+@import 'section1';
+@import 'middlefooter';
+@import 'section2';
+@import 'section3';
+@import 'whyawesome';
+@import 'pricing';
+@import 'reviews';
+@import 'contact';
+@import 'endfooter';
+@import 'media';
+@import 'mixins';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat;
+}

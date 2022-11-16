@@ -1,0 +1,220 @@
+@media (max-width:768px){
+    #home {
+        height: 800%;
+    }
+
+    .content{
+        margin: auto;
+        padding: 20px;
+        width: 90%;
+        .dwnld{
+            margin: auto;
+        }
+    }
+    
+    .logo{
+    display: block;
+    }
+
+    .freetrial {
+        margin: 20px auto;
+        width: 70%;   
+    }
+
+    .middlefooternav{
+        padding: 5px 20px;
+        
+        h1{
+            font-size: 1em;
+        }
+        h3{
+            font-size: 0.8em
+        }
+    }
+
+    .fa-brands, .fa-solid, .fa-regular{
+        font-size: 1.5em;
+      }
+
+    #home2{
+            height: auto;
+        }
+    
+        .content2{
+            margin: auto;
+            padding: 20px;
+            width: 90%;
+        }
+
+        .logo{
+        display: block;
+        }
+
+        .reapre, .explore {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+            margin: auto;
+        }
+
+        .explore {
+            margin: auto;
+            padding: 20px;
+            width: 90%;
+            display: block;
+            text-align: center;
+        }
+
+        .squareex:last-of-type{
+            width: 168px;
+        }
+
+        #home3 {
+            height: auto;
+        }
+
+        .logohome3{
+            display: block;
+            padding-bottom: 20px;
+            
+        }
+
+        .biglogo{
+            display: flex;
+            height: 150px;
+            img{
+                margin: 0;
+                margin-top: 10px;
+            }
+        }
+
+        .whyawesome {
+            padding: 10px;
+        }
+
+        div.awesomeintro {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .pricing>.awesomeintro{
+            padding: 20px;
+        }
+
+        .pricing {
+            height: auto;
+        }
+
+        .pricinglist{
+            display: flex;
+            flex-direction: column;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            align-items: center;
+        }
+
+        .pricingitem{
+            margin-bottom: 20px;
+        }
+
+        #contact .freetrial{
+            width: 90%;
+        }
+
+
+        .endfooter{
+            nav{
+                padding: 0;
+            }
+            
+        }
+
+}
+
+@media (max-width: 768px){
+    #burger {
+    display: block;
+    position: absolute;
+    right: 30px;
+    font-size: 1.2em;
+    border-bottom: none;
+  }
+  
+  header{
+    height: auto;
+    width: 100%;
+    background: #1C1C1C;
+    min-height: 72px;
+    transition: 0.5s;
+  }
+  
+    .buttons {
+    flex-direction: column;
+    align-items: center;
+    min-height: 40px;
+    height: auto;
+    max-width: 200px !important;
+    background: #1C1C1C;
+    margin-bottom: 10px;
+    margin-right: 60px !important;
+  }
+  
+    .link {
+    display: none;
+  }
+  
+  a:hover {
+    border-bottom: 3px solid #E27866 ;
+    letter-spacing: 3px;
+  }
+  
+  }
+
+  @media (max-width:1000px){
+    h3.cont{
+        font-size: 1.5em;
+    }
+
+    .reapre {
+        padding: 10px;
+    }
+
+    h3.cont2 {
+        font-size: 1.2em;
+    }
+
+    .content2>p{
+    font-size: 0.8em;
+    }
+
+    header{
+        max-width: 1000px;
+        .buttons{
+            margin-right: 15px;
+        }
+        img {
+            margin-left: 50px;
+        }
+      }
+
+    .logohome3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .biglogo>img{
+            margin: 10px;
+            width: auto;
+            height: 100px;
+        }
+    
+    .contenthome3
+    {   margin: auto;
+        padding-bottom: 10px;
+        p{
+            font-size: 0.9em;
+        }
+    }
+  }

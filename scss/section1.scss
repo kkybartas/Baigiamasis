@@ -1,0 +1,173 @@
+#home {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.425)), url(https://github.com/kkybartas/Baigiamasis/blob/main/Background-1.png?raw=true);
+    background-size: cover;
+    background-position: 50% 70%;
+    height: 639px;
+    margin-top: 72px;
+}
+
+.logo-home{
+    margin: 0;
+    padding: 0;
+    height: 108px;
+    width: 247px;
+}
+
+.logo{
+    display: flex;
+    justify-content:center;
+    width: 1400px;
+    height: 80%;
+    margin: auto;
+}
+
+
+.content
+{
+    color: white;
+    height: 90%;
+    width: 70%;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.freetrial{
+    height: 90%;
+    width: 30%;
+    margin-right: 150px;
+    background: white;
+    border-radius: 5px;
+    // display: flex;
+    // flex-direction: column;
+}
+
+.trytoday {
+    background: #F5F5F5;
+    border-radius: 5px 5px 0px 0px;
+    height: 57px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.3em;
+
+    span {
+        color: #E27866;
+    }
+}
+
+.radio-input {
+    padding: 30px 40px 40px 40px;
+}
+
+.info {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+    width: 90%;
+    padding: 15px 0;
+    opacity: 0.3;
+    font-family: Montserrat;
+
+}
+
+h2.getstarted {
+        background: #41D395;
+        color: white;
+        border-radius: 0px 0px 5px 5px;
+        height: 57px;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 1.3em;
+        &:hover {
+            background: #118a57 ;
+            cursor: pointer;
+        }
+    }
+
+.details {
+width: 100%;
+height: 171px;
+}
+
+
+.radio-input h3 {
+    margin-bottom: 20px;
+}
+
+form.subs{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    appearance: none;
+
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 3px solid #41D395;
+    position: relative;
+}
+
+input[type="radio"]:before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #41D395;
+    border-radius: 12px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: scale(0);
+    transition: 0.3s;
+}
+
+input[type="radio"]:checked::before{
+    transform: scale(1);
+}
+
+.content p, .cont {
+    padding: 10px 0;
+    text-align: left;
+}
+
+.cont {
+    font-size: 2.5em;
+}
+
+p {
+    padding-top: 20px;
+}
+
+button.dwnld {
+    background: transparent;
+    color: white;
+    width: 135px;
+    height: 42px;
+    border: 2px solid white;
+    font-family: Montserrat;
+    font-size: 0.9 em;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-weight: bold;
+    &:hover {
+        background: white ;
+        color: black;
+        cursor: pointer;
+    }
+}
+
+
+

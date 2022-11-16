@@ -1,0 +1,63 @@
+nav{
+    text-align: center;
+    height: 105px;
+    display: flex;
+    background: white;
+    transition: 1s;
+    &:hover{
+      color: white;
+    }
+  }
+
+  .links{
+    width: 40%;
+    h1 {
+        padding: 10px 0;
+        text-transform: capitalize;
+    }
+
+    h3 {
+        font-size: 1em;
+        color: gray;
+        font-weight: 200;
+    }
+  }
+
+  .footericons{
+    width: 60%;
+    display: flex;
+  }
+
+
+  .fa-brands, .fa-solid, .fa-regular{
+    font-size: 2em;
+    display: inline;
+    height: 100%;
+    width: 100%;
+    padding: auto;
+    margin: 15px auto;
+    color: $orange;
+  }
+  
+  .fa-brands:hover, .fa-solid:hover, .fa-regular:hover{  
+    color: $orangedarker; 
+    text-decoration:none; 
+    cursor:pointer;  
+  }
+
+  nav {
+    padding: 0 150px 80px 150px;
+}
+.links {
+    float: left;
+    text-align: left;
+
+    h3{
+        padding: 0;
+    }
+} 
+
+.footericons {
+    float: right;
+    padding-top: 20px;
+}
